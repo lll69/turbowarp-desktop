@@ -1,7 +1,7 @@
 {
   "name": "turbowarp-desktop",
   "description": "Scratch mod with a compiler, dark mode, a bunch of addons, and more.",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "license": "GPL-3.0",
   "author": {
     "email": "contact@turbowarp.org",
@@ -21,14 +21,14 @@
     "@babel/preset-react": "^7.13.13",
     "@turbowarp/electron-webpack": "^2.9.1",
     "css-loader": "^5.0.2",
-    "electron": "^18.2.0",
-    "electron-builder": "^23.0.8",
+    "electron": "^18.2.4",
+    "electron-builder": "^23.0.9",
     "intl-messageformat": "^9.4.7",
     "postcss": "^8.4.13",
     "postcss-import": "^14.0.0",
     "postcss-loader": "^4.2.0",
     "postcss-simple-vars": "^6.0.3",
-    "scratch-gui": "github:TurboWarp/scratch-gui#desktop",
+    "scratch-gui": "git+https://github.com/TurboWarp/scratch-gui.git#desktop",
     "semver": "^7.3.4",
     "webpack": "~4.46.0",
     "write-file-atomic": "^3.0.3"
@@ -124,7 +124,8 @@
         "camera",
         "audio-playback",
         "audio-record",
-        "joystick"
+        "joystick",
+        "removable-media"
       ]
     },
     "appImage": {
